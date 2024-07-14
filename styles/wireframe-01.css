@@ -28,6 +28,7 @@ main{
 
 .content{
     background-color: var(--poseidon_3) ;
+    padding-bottom: 40px;
 
 }
 
