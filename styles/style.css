@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body{
+    color: #292929;
+}
+
+#header__logo_wil{
+    margin: 0.5rem;
+    width: 1.5rem;
+}
+
+
+.layouts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+h1{
+    margin-bottom: 1.5rem;
+}
+
+.content_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+}
+
+.card_container{
+    margin: 0 1.3rem 2.5rem;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px #cabfbf solid;
+    border-radius: 9px;
+    box-shadow: 0rem 0rem 0.8rem rgba(50, 50, 50, 0.3);
+    text-decoration: none;
+    padding: 0.8rem;
+    color: #292929;
+}
+
+.card > img{
+    width: 150px;
+    height: 100px;
+    margin: 0px 0px 10px;
+}
+
+.card > h2{
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,117 @@
+:root{
+    --poseidon_1: #012030;
+    --poseidon_2: #13678A;
+    --poseidon_3: #45C4B0;
+    --poseidon_4: #9AEBA3;
+    --poseidon_5: #DAFDBA;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main{
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main_header{
+    width: 100%;
+    height: 52px;
+    background-color: var(--poseidon_2) ;
+}
+
+.content{
+    background-color: var(--poseidon_3) ;
+
+}
+
+/* Side bar - left */
+.side_bar{
+    margin: 11px;
+    background-color: var(--poseidon_3);
+    float: left;
+
+}
+
+.profile{
+    width: 225px;
+    height: 389px;
+    margin-bottom: 11px;
+    background-color: var(--poseidon_5);
+}
+
+.my_network{
+    width: 225px;
+    height: 693px;
+    margin-bottom: 9px;
+    background-color: var(--poseidon_5);
+}
+
+
+
+/* Side bar - middle */
+.main_feed{
+    margin: 11px;
+    background-color: var(--poseidon_3) ;
+    float: left;
+
+}
+
+.posting{
+    width: 557px;
+    height: 167px;
+    margin-bottom: 11px;
+    background-color: var(--poseidon_5);
+}
+
+.filter{
+    width: 557px;
+    height: 20px;
+    margin-bottom: 11px;
+    background-color: var(--poseidon_5);
+}
+
+.post{
+    width: 557px;
+    height: 540px;
+    margin-bottom: 11px;
+    background-color: var(--poseidon_4);
+    
+}
+
+
+
+/* Side bar - right */
+.aside_right{
+    margin: 11px;
+    background-color: var(--poseidon_3);
+    float: left;
+
+}
+
+.aside_network{
+    width: 300px;
+    height: 396px;
+    margin-bottom: 11px;
+    background-color: var(--poseidon_5);
+}
+
+.aside_sticky_banner{
+    width: 300px;
+    height: 251px;
+    margin-bottom: 11px;
+    background-color: var(--poseidon_5);
+}
+
+.contact{
+    width: 300px;
+    height: 192px;
+    margin-bottom: 11px;
+    background-color: var(--poseidon_5);
+}
