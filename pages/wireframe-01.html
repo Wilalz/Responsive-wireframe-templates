@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wireframe-01</title>
-    <link rel="stylesheet" href="../styles/style.css">
-    <link rel="stylesheet" href="../styles/wireframe-01.css">
+    <link rel="stylesheet" href="../styles/style.css"> <!-- Base - Estilo base de todo el proyecto -->
+    <link rel="stylesheet" href="../styles/wireframe-01.css"> <!-- Layout - Estilo especifico de la pagina -->
+    <link rel="stylesheet" href="../styles/footer.css"> <!-- Module - Estilo de un componente -->
 </head>
 <body>
     <header>
@@ -50,9 +51,10 @@
                 <section class="aside_network">Network</section>
                 <section class="aside_sticky_banner">Banner</section>
                 <section class="contact">Contact</section>
-
             </aside>
-
+            <aside onclick=chatOpener() class="chat">
+                Chat
+            </aside>
         </section>
 
     </main>
@@ -74,5 +76,6 @@
         </div>
         
     </footer>
+    <script src="../scripts/script.js"></script>
 </body>
 </html>
